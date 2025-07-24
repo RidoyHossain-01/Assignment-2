@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import "tailwindcss";
+
+@layer utilities {
+  .noto-serif-original {
+    font-family: "Noto Serif", serif;
+  }
+
+
+  .paragraph {
+    font-size: 1.4rem;
+    font-family: Inter;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 1rem;
+  }
+  .section-title {
+    font-size: 3.2rem;
+    font-weight: bold;
+  }
+  .color-primary {
+    color: #e95a08;
+  }
+  .bg-color-primary{
+    background-color: #e95a08;
+    color: white;
+  }
+  .section-lg {
+    margin-top: 120px;
+    padding: 150px;
+  }
+}
+
+
+/* vanilla css */
+
+.card{
+  transition: transform 0.4s;
+}
+.card:hover{
+  transform: scale(1.1);
+}
+
+.card button:hover{
+   background-color: #d85407
+}
+
+
+@media screen and (max-width:640px) {
+  main{
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+  .paragraph{
+    font-size: 0.9rem;
+  }
+  .section-title{
+     font-size: 1.5rem;
+  }
+  .section-lg{
+    margin-top: 20px;
+    padding:0;
+  }
+}
