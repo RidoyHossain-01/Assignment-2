@@ -44,10 +44,6 @@
 .card button:hover{
    background-color: #d85407
 }
-.bloom{
-  background-image: url("./assets/deal-bloom.png");
-  background-size:;
-}
 
 .join{
   padding:0;
@@ -55,6 +51,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 
 
 
