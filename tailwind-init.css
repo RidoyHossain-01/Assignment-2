@@ -44,6 +44,18 @@
 .card button:hover{
    background-color: #d85407
 }
+.bloom{
+  background-image: url("./assets/deal-bloom.png");
+  background-size:;
+}
+
+.join{
+  padding:0;
+  background-image: url("./assets/news-letter-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 
 
 @media screen and (max-width:640px) {
@@ -61,4 +73,9 @@
     margin-top: 20px;
     padding:0;
   }
+  .join{
+    margin-right: -1rem;
+    margin-left: -1rem;
+  }
+
 }
